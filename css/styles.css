@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.video-background{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.caption{
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  color: #ffff;
+}
+.caption h1{
+  font-weight: 700; 
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6 rem 1.3rem;
+  color: #2A2F3E ;
+}
+
+/*============= Footer=============*/
+
+footer{
+  background-color: #2A2F3E;
+  color:#d5d5b5;
+  padding-top: 2rem;
+}
+
+#logo{
+  height: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5b5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS: =============*/
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {
+    font-size:1.5rem;
+  } 
+  h2 {
+    font-size:1rem;
+  }
+  h3 {
+    font-size:0.8rem;
+  }
+  p {
+    font-size:0.5rem;
+  }
+
+  
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {
+    font-size:2rem;
+  }
+  h2 {
+    font-size:1.5rem;
+  }
+  h3 {
+    font-size:1rem;
+  }
+  p {
+    font-size:0.8rem;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {
+    font-size:2.5rem;
+  } 
+  h2 {
+    font-size:2rem;
+  }
+  h3 {
+    font-size:1.5rem;
+  }
+  p {
+    font-size:1rem;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {
+    font-size:3rem;
+  } 
+  h2 {
+    font-size:2.5rem;
+  }
+  h3 {
+    font-size:2rem;
+  }
+  p {
+    font-size:1.5rem;
+  }
+}
+
